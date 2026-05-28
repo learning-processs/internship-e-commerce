@@ -8,3 +8,14 @@
     font-size: 1.5rem; /* Slightly smaller section headings on mobile */
   }
 }
+
+
+/* Footer Navigation Link Interactivity Rules */
+.hover-link {
+  transition: color 0.2s ease-in-out, padding-left 0.2s ease-in-out;
+}
+
+.hover-link:hover {
+  color: #0d6efd !important; /* Changes to theme primary color */
+  padding-left: 4px; /* Tiny slide accent effect */
+}
