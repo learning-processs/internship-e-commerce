@@ -1,0 +1,10 @@
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 250px !important; /* Shorter banners on mobile */
+  }
+  
+  h3 {
+    font-size: 1.5rem; /* Slightly smaller section headings on mobile */
+  }
+}
