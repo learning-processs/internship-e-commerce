@@ -9,13 +9,46 @@
   }
 }
 
-
-/* Footer Navigation Link Interactivity Rules */
+/* Custom Enhanced Footer Styling Rules */
 .hover-link {
-  transition: color 0.2s ease-in-out, padding-left 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out !important;
+  display: inline-block;
 }
 
 .hover-link:hover {
-  color: #0d6efd !important; /* Changes to theme primary color */
-  padding-left: 4px; /* Tiny slide accent effect */
+  color: #0d6efd !important; /* Glow active primary blue color */
+  text-opacity: 1 !important;
+  transform: translateX(5px); /* Smooth subtle nudge slide */
+}
+
+.social-btn {
+  transition: all 0.2s ease-in-out;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.social-btn:hover {
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+  transform: translateY(-3px); /* Subtle elevate bump up */
+}
+
+/* Custom Input Field adjustments for Dark Footer background */
+.custom-input {
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+.custom-input::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.custom-input:focus {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-color: #0d6efd !important;
+  box-shadow: none !important;
+  color: #fff !important;
+}
+
+.footer-gateways span {
+  font-size: 0.85rem;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 4px 8px;
+  border-radius: 4px;
 }
