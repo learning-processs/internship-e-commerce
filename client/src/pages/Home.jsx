@@ -11,10 +11,10 @@ const Home = ({ addToCart }) => {
   ];
 
   const latestProducts = [
-    { id: 1, title: 'Wireless Headphones', price: 99, category: 'Electronics', img: 'https://placehold.co/400x400?text=Headphones' },
-    { id: 2, title: 'Smart Watch', price: 149, category: 'Electronics', img: 'https://placehold.co/400x400?text=Smart+Watch' },
-    { id: 3, title: 'Leather Backpack', price: 79, category: 'Fashion', img: 'https://placehold.co/400x400?text=Backpack' },
-    { id: 4, title: 'Running Shoes', price: 120, category: 'Fashion', img: 'https://placehold.co/400x400?text=Shoes' },
+    { id: 1, title: 'Wireless Headphones', price: 99, category: 'Electronics', img: 'https://brain-images-ssl.cdn.dixons.com/8/2/10207228/u_10207228.jpg' },
+    { id: 2, title: 'Smart Watch', price: 149, category: 'Electronics', img: 'https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/06/015-galaxy-watch-fe-silver-r-perspective-1.jpg' },
+    { id: 3, title: 'Leather Backpack', price: 79, category: 'Fashion', img: 'https://therealleathercompany.com/cdn/shop/files/the-standard-leather-laptop-backpack-for-men_9.jpg?v=1740411587' },
+    { id: 4, title: 'Running Shoes', price: 120, category: 'Fashion', img: 'https://sc01.alicdn.com/kf/HTB1REpsXIfrK1Rjy1Xdq6yemFXa8/New-arrival-cheap-name-brand-kids-sport.jpg' },
   ];
 
   // 3. Helper handler function
@@ -40,7 +40,7 @@ const Home = ({ addToCart }) => {
             </div>
           </div>
           <div className="carousel-item" style={{ height: '450px', background: '#dee2e6' }}>
-            <img src="https://placehold.co/1200x450?text=Next-Gen+Tech+In+Stock" className="d-block w-100 h-100 object-fit-cover" alt="Tech" />
+            <img src="https://dl-file.cyberlink.com/web/upload-file/learning-center/enu/2023/12/Thumbnail_20231210234553965.jpg" className="d-block w-100 h-100 object-fit-cover" alt="Tech" />
             <div className="carousel-caption d-none d-md-block text-dark bg-light bg-opacity-75 rounded p-3">
               <h5>Upgrade Your Tech</h5>
               <p>Top tier quality premium smart gadgets.</p>

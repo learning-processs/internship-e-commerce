@@ -19,7 +19,7 @@ const About = () => {
       <div className="row align-items-center g-5 mb-5">
         <div className="col-md-6">
           <img 
-            src="https://placehold.co/600x400?text=Our+Creative+Workspace" 
+            src="https://marketplace.canva.com/EAE-NINFJHw/2/0/800w/canva-brown-white-minimalist-aesthetic-summer-style-fashion-facebook-post-HLOPP7TFSx4.jpg" 
             alt="Our Story Workspace" 
             className="img-fluid rounded-3 shadow" 
           />

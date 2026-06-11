@@ -2,12 +2,12 @@ import React from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom'; // 1. Added useNavigate import
 
 const ALL_PRODUCTS = [
-  { id: 1, title: 'Wireless Headphones', price: 99, category: 'Electronics', img: 'https://placehold.co/400x400?text=Headphones', shortDesc: 'High-fidelity audio with premium active noise cancellation.' },
-  { id: 2, title: 'Smart Watch', price: 149, category: 'Electronics', img: 'https://placehold.co/400x400?text=Smart+Watch', shortDesc: 'Track fitness, sleep, and messages on an AMOLED screen.' },
-  { id: 3, title: 'Leather Backpack', price: 79, category: 'Fashion', img: 'https://placehold.co/400x400?text=Backpack', shortDesc: 'Full-grain weather-resistant leather with a 15-inch laptop slot.' },
-  { id: 4, title: 'Running Shoes', price: 120, category: 'Fashion', img: 'https://placehold.co/400x400?text=Shoes', shortDesc: 'Proprietary responsive cushioning for athletes.' },
-  { id: 5, title: 'Mechanical Keyboard', price: 89, category: 'Electronics', img: 'https://placehold.co/400x400?text=Keyboard', shortDesc: 'Tactile hot-swappable switches with customizable dynamic RGB.' },
-  { id: 6, title: 'Ceramic Coffee Mug', price: 25, category: 'Home Decor', img: 'https://placehold.co/400x400?text=Mug', shortDesc: 'Artisanal kiln-fired heavy durable structural ceramic craft.' },
+  { id: 1, title: 'Wireless Headphones', price: 99, category: 'Electronics', img: 'https://brain-images-ssl.cdn.dixons.com/8/2/10207228/u_10207228.jpg' },
+  { id: 2, title: 'Smart Watch', price: 149, category: 'Electronics', img: 'https://static1.anpoimages.com/wordpress/wp-content/uploads/2024/06/015-galaxy-watch-fe-silver-r-perspective-1.jpg' },
+  { id: 3, title: 'Leather Backpack', price: 79, category: 'Fashion', img: 'https://therealleathercompany.com/cdn/shop/files/the-standard-leather-laptop-backpack-for-men_9.jpg?v=1740411587' },
+  { id: 4, title: 'Running Shoes', price: 120, category: 'Fashion', img: 'https://sc01.alicdn.com/kf/HTB1REpsXIfrK1Rjy1Xdq6yemFXa8/New-arrival-cheap-name-brand-kids-sport.jpg' },
+  { id: 5, title: 'Mechanical Keyboard', price: 89, category: 'Electronics', img: 'https://m.media-amazon.com/images/I/61nghmq8GPL._AC_.jpg' },
+  { id: 6, title: 'Ceramic Coffee Mug', price: 25, category: 'Home Decor', img: 'https://i5.walmartimages.com/seo/24-oz-Large-Ceramic-Coffee-mugs-Extra-Large-Tea-Coffee-Cups-Large-Handle-Coffee-Mug-Office-Home-Microwave-Diahwasher-Safe-24-oz-green_4ece6abb-82fa-41eb-aefd-876add9a905a.26d4fa5fbaf53eda7a9e26d6ebc3faab.jpeg' },
 ];
 
 const CATEGORIES = ['Electronics', 'Fashion', 'Home Decor'];
