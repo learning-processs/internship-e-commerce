@@ -25,7 +25,7 @@ const App = () => {
           item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item
         );
       }
-      return [...prevCart, { ...product, quantity: 1 }];
+      return [...prevCart, {...product, quantity: 1 }];
     });
   };
 

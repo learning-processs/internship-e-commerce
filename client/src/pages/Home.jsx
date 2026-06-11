@@ -2,12 +2,12 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom'; // 1. Added useNavigate
 
 const Home = ({ addToCart }) => {
-  const navigate = useNavigate(); // 2. Initialize navigate hook
+  const navigate = useNavigate(); 
 
   const categories = [
-    { id: 1, name: 'Electronics', img: 'https://placehold.co/300x200?text=Electronics' },
-    { id: 2, name: 'Fashion', img: 'https://placehold.co/300x200?text=Fashion' },
-    { id: 3, name: 'Home Decor', img: 'https://placehold.co/300x200?text=Home+Decor' },
+    { id: 1, name: 'Electronics', img: 'https://premierss.com/wp-content/uploads/consumer-electronics-1168x779.jpeg' },
+    { id: 2, name: 'Fashion', img: 'https://tse1.mm.bing.net/th/id/OIP.R3fVt8cbjA1rI5hzroD9NwHaE7?pid=Api&P=0&h=180' },
+    { id: 3, name: 'Home Decor', img: 'https://tse2.mm.bing.net/th/id/OIP.qs5en04_EzH01nWBPMM_YgHaE8?pid=Api&P=0&h=180' },
   ];
 
   const latestProducts = [
@@ -33,7 +33,7 @@ const Home = ({ addToCart }) => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active" style={{ height: '450px', background: '#e9ecef' }}>
-            <img src="https://placehold.co/1200x450?text=Huge+Summer+Sale" className="d-block w-100 h-100 object-fit-cover" alt="Sale" />
+            <img src="https://assets.axelaccessories.com/media/catalog/category/03_CATEGORY_BANNER-_PROMO_50__EN.jpg" className="d-block w-100 h-100 object-fit-cover" alt="Sale" />
             <div className="carousel-caption d-none d-md-block text-dark bg-light bg-opacity-75 rounded p-3">
               <h5>New Season Arrivals</h5>
               <p>Discover latest styles up to 50% off.</p>
